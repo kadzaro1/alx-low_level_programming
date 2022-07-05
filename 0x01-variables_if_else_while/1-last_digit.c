@@ -18,7 +18,7 @@ if (n > 5)
 if (n == 0)
 	printf("0");
 if (n < 6 && n != 0)
-	print("less than 6 not equals 0");
+	printf("less than 6 not equals 0");
 printf("\n");
 return (0);
 }
