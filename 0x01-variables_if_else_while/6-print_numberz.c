@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>i
 /**
  * main - Entry point
  *
@@ -8,8 +7,8 @@
 int main(void)
 {
 int ch;
-for (ch = 0; ch < 10; ch++)
+for (ch = 48; ch <= 57; ch++)
 	putchar(ch);
-putchar('\n');
+putchar(10); /* ascii code for new line*/
 return (0);
 }
