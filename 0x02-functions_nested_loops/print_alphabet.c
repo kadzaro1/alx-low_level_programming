@@ -2,5 +2,8 @@
 
 void print_alphabet(void)
 {
-	printf("abcdefghijklmnopqrstuvwxyz\n");
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+	printf("%s", ch);
+printf("\n");
 }
