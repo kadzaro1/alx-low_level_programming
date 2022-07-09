@@ -9,6 +9,6 @@
 int print_last_digit(int i)
 {
 if (i < 0)
-	i = -i
-return (i % 10) /* e.g 789 % 10 returns 9 */
+	i = -i;
+return (i % 10); /* e.g 789 % 10 returns 9 */
 }

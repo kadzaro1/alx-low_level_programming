@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_10x - prints alphabet from a-z ten times
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
  *
  * _putchar: prints to the output stream
  */
