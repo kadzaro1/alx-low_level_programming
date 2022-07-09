@@ -8,12 +8,12 @@
 void print_alphabet_10x(void)
 {
 int i;
-int ch;
+int j;
 for (i = 0; i <= 10; i++)
 {
-for (ch = 'a'; ch <= 'z'; ch++)
+for (j = 'a'; j <= 'z'; j++)
 {
-_putchar(ch);
+_putchar(j);
 }
 _putchar('\n');
 }
