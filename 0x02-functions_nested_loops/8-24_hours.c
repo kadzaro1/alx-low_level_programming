@@ -18,27 +18,24 @@ for (m = 0; m < 60; m++)
 	_putchar('0');
 	_putchar(h + '0');
 	}
-	/**
-	 *else (h >= 10)
+	else (h >= 10)
 	{
 	_putchar((h / 10) + '0');
 	_putchar((h % 10) + '0');
 	}
-	*/
 	if (m < 10)
 	{
 	_putchar(':');
 	_putchar('0');
 	_putchar(m + '0');
 	}
-	/**
-	 * else (m >= 10)
+	 else (m >= 10)
 	{
 	_putchar(':')
 	_putchar((m / 10) + '0');
 	_putchar((m % 10) + '0');
 	}
-	*/
+	
 	_putchar(h);
 	_putchar(':');
 	_putchar(m);
