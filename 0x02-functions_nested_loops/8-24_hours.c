@@ -29,13 +29,12 @@ for (m = 0; m < 60; m++)
 	_putchar('0');
 	_putchar(m + '0');
 	}
-	 else if (m >= 10)
+	else if (m >= 10)
 	{
 	_putchar(':');
 	_putchar((m / 10) + '0');
 	_putchar((m % 10) + '0');
 	}
-	
 	_putchar(h);
 	_putchar(':');
 	_putchar(m);
