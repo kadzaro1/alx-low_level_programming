@@ -15,9 +15,9 @@ len2 = len1 / 2;
 len3 = len1 % 2;
 
 	if (len3 != 0)
-	len2++
+	len2++;
 	else
-	len2
+	len2;
 for (; len2 < len1; len2++)
 {
 _putchar(str[len2]);
