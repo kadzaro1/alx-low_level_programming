@@ -13,7 +13,7 @@ int len1, len2;
 len1 = strlen(str);
 len2 = len1 / 2;
 
-for (; len2 <= len1; len2++)
+for (; len2 < len1; len2++)
 	{
 	_putchar(str[len2]);
 	}
