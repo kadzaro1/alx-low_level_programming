@@ -23,6 +23,6 @@ if (10 - i != 1)
 else
 	_putchar(k);
 }
-}
 _putchar('\n');
+}
 }
