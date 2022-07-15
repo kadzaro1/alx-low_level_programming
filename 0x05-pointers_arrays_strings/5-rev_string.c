@@ -11,9 +11,10 @@ void rev_string(char *s)
 {
 char temp;
 temp = *s;
-int j = strlen(s);
+int j;
+j = strlen(s);
 
-for (int i = j; i <= j; i--)
+for (; j <= strlen(s); j--)
 	{
 	_putchar(temp);
 	_putchar('\n');
