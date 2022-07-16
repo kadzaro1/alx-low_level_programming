@@ -2,16 +2,21 @@
 #include <string.h>
 
 /**
- * *_strcpy - copies the string pointed to by src to dest
+ * char *_strcpy - copies the string pointed to by src to dest
  *
- *@dest: character parameter
+ *@dest: parameter
  *
- *@src: character parameter
+ *@src: parameter
  *
- * strcpy: copy string of src to dest
+ * Return: return string
  */
 
 char *_strcpy(char *dest, char *src)
 {
-strcpy(dest, src);
+int i;
+for (i = 0; src[i] != '\0'; i++)
+{
+	dest[i] = src[i];
+}
+return (dest);
 }
