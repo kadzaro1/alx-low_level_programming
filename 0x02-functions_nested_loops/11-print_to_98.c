@@ -13,29 +13,26 @@ void print_to_98(int n)
 {
 int temp;
 temp = n;
-for (; temp <= 98; temp++)
-{
-	if (98 - temp != 0)
+while (temp < 98)
 	{
-		printf("%d", temp);
-		printf(",");
-		printf(" ");
+	printf("%d", temp);
+	printf(",");
+	printf(" ");
+	temp++
 	}
-	else if (temp == 98)
+printf("98");
+	if (temp == 98)
 		printf("%d", temp);
-	else
-		printf("%d", temp);
-}
-for (; temp >= 98; temp--)
-{
-	if (temp - 98 != 0)
+
+
+for (; temp > 98; temp--)
 	{
 	printf("%d", temp);
 	printf(",");
 	printf(" ");
 	}
-	else
-	printf("%d", temp);
+
+printf("98");
 }
 printf("\n");
 }
