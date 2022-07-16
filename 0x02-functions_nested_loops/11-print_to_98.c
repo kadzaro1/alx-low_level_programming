@@ -18,7 +18,7 @@ while (temp < 98)
 	printf("%d", temp);
 	printf(",");
 	printf(" ");
-	temp++
+	temp++;
 	}
 printf("98");
 	if (temp == 98)
@@ -31,8 +31,6 @@ for (; temp > 98; temp--)
 	printf(",");
 	printf(" ");
 	}
-
 printf("98");
-}
 printf("\n");
 }
