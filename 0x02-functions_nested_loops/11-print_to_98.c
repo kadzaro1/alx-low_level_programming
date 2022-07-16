@@ -22,7 +22,7 @@ for (; temp <= 98; temp++)
 		printf(" ");
 	}
 	else if (temp == 98)
-		printf("%", temp);
+		printf("%d", temp);
 	else
 		printf("%d", temp);
 }
