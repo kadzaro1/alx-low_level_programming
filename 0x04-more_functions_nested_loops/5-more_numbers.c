@@ -15,7 +15,7 @@ char num2;
 char results;
 	for (num1 = 1; num1 <= 10; num1++)
 	{
-		for (num2 = 0; num2 <= 14; num++)
+		for (num2 = 0; num2 <= 14; num2++)
 		{
 			results = 0;
 			if (num2 > 9)
@@ -23,7 +23,7 @@ char results;
 				_putchar('1');
 			results = num2 % 10;
 			}
-		_putchar(results + '0');
+		_putchar('0' + results);
 		}
 	_putchar('\n');
 	}
