@@ -10,14 +10,14 @@
 
 void more_numbers(void)
 {
-char num1;
+int num1;
 char num2;
 char results;
 	for (num1 = 1; num1 <= 10; num1++)
 	{
 		for (num2 = 0; num2 <= 14; num++)
 		{
-			results = num2;
+			results = 0;
 			if (num2 > 9)
 			{
 				_putchar('1');
@@ -25,6 +25,6 @@ char results;
 			}
 		_putchar(results + '0');
 		}
+	_putchar('\n');
 	}
-_putchar('\n');
 }
